@@ -1,7 +1,11 @@
 #include <stdio.h>
-
-int main(){
-  char str[200]="\"Programming is like building a multilingual puzzle";
+/**
+ *prints the str value
+ *
+ */
+int main(void)
+{
+  char str[200] = "\"Programming is like building a multilingual puzzle";
   puts(str);
-  return 0;
+  return (0);
 }
