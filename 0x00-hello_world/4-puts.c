@@ -1,11 +1,11 @@
 #include <stdio.h>
+
 /**
- *prints the str value
- *
+ * main - prints the phrase "Programming is like building a multilingual puzzle
+ * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
-  char str[200] = "\"Programming is like building a multilingual puzzle";
-  puts(str);
-  return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
