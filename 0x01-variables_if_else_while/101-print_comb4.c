@@ -13,10 +13,11 @@ for (j = 48; j < 58; j++)
 {
 for (z = 48; j < 58; z++)
 {
-if (i < j && j < z)
+if (i < j || j < z)
 {
 putchar(i);
 putchar(j);
+putchar(z);
 if (i != 55 || j != 56 || z != 57)
 {
 putchar(',');
