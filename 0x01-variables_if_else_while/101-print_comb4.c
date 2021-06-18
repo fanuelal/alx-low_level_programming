@@ -9,16 +9,16 @@ int main(void)
 int i, j, z;
 for (i = 48; i < 58; i++)
 {
-for (j = 48; j < 58; j++)
+for (j = 49; j < 58; j++)
 {
-for (z = 48; j < 58; z++)
+for (z = 50; j < 58; z++)
 {
 if (i < j && j < z)
 {
 putchar(i);
 putchar(j);
 putchar(z);
-if (i != 55 || j != 56 || z != 57)
+if (i != 55 || j != 56)
 {
 putchar(',');
 putchar(' ');
