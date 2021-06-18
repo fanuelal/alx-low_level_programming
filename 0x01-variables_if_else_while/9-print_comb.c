@@ -1,0 +1,25 @@
+#include <stdio.h>
+/**
+ *main - prints all combination of basic numbers
+ *separeted by comma
+ *Return: Always 0 success
+ **/
+int main(void)
+{
+int ch;
+for (ch = 48; ch < 58; ch++)
+{
+putchar(ch);
+if (ch != 57)
+{
+putchar(',');
+putchar(' ');
+}
+else
+{
+putchar('$');
+}
+}
+putchar('\n');
+return (0);
+}
