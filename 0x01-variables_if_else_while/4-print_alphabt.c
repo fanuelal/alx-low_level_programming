@@ -13,7 +13,10 @@ if (ch == 'e' && ch == 'q')
 {
 continue;
 }
+else
+{
 putchar(ch);
+}
 }
 putchar('\n');
 return (0);
