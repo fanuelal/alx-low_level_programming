@@ -5,8 +5,8 @@
  **/
 int main(void)
 {
-int n;
-for (int i = 1024; i >= 0; i--)
+int n, i;
+for (i = 1024; i >= 0; i--)
 {
 if ((i % 3 == 0) && (i % 5 == 0))
 {
