@@ -7,13 +7,14 @@
  */
 void print_numbers(void)
 {
-int i;
-for (i = 0; i <= 9; i++)
+int i, j = 0;
+while (j < 10)
 {
-if (i != 2 && i != 4)
+for (i = 0; i <= 9; i++)
 {
 _putchar(i);
 }
+j++;
 }
 _putchar('\n');
 }
