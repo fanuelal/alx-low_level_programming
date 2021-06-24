@@ -2,7 +2,7 @@
 /**
  * main - print fizz and numbers and Buzz
  *
- * Return: the result of the operation
+ * Return: 0 Always
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ for (i = 1; i <= 100; i++)
 {
 if ((i % 3 != 0) && (i % 5 != 0))
 {
-printf("%d",i);
+printf("%d", i);
 }
 else if (i % 3 == 0)
 {
