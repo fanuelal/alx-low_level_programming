@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * print_numbers - multiplies two integers
+ * more_numbers - multiplies two integers
  *
  * Return: the result of the operation
  */
-void print_numbers(void)
+void more_numbers(void)
 {
 int i, j = 0;
 while (j < 10)
