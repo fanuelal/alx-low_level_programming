@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * print_numbers - multiplies two integers
+ * print_most_numbers - multiplies two integers
  *
  * Return: the result of the operation
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 int i;
 for (i = 0; i <= 9; i++)
