@@ -17,7 +17,7 @@ while (format[i])
 {
 switch (format[i])
 {
-ase 'c':
+case 'c':
 printf("%s%c", sep, va_arg(list, int));
 break;
 case 'i':
