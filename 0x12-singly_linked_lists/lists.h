@@ -2,7 +2,7 @@
 #define ALX_H
 #include <stdio.h>
 #include <stdlib.h>
-typedef struct size_t
+typedef struct list_s
 {
  char *str;
  unsigned  int len;
