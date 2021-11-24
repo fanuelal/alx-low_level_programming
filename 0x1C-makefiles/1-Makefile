@@ -1,5 +1,5 @@
 # The all rule builds your executable
 CC = gcc
-SRC = *.c
+SRC = main.c school.c
 all:
 	$(CC) $(SRC) -o school
