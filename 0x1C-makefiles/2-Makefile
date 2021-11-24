@@ -1,0 +1,12 @@
+# The all rule should recompile only the updated source files
+CC = gcc
+SRC = school.c main.c
+OBJ = $(SRC: .c=.o)
+NAME = school
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+main.o: main.c
+	$(CC) -c main.o main.c
+school.o: school.c
+	$(CC) -c school.o school.c
+
