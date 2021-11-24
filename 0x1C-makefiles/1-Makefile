@@ -1,0 +1,5 @@
+# The all rule builds your executable
+CC = gcc
+SRC = *.c
+all:
+	$(CC) $(SRC) -o school
