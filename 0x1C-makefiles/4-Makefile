@@ -1,7 +1,7 @@
 #CFLAGS: your favorite compiler flags: -Wall -Werror -Wextra -pedantic
 
 CC = gcc
-SRC = main.c holberton.c
+SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm -f
