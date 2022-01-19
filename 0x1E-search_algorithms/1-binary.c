@@ -21,9 +21,9 @@ m = (i + l) / 2;
 printf("Searching in array:");
 for (j = i; j < l; j++)
 {
-printf("%d", array[j]);
+printf(" %d", array[j]);
 if (j < l - 1)
-printf(", ");
+printf(",");
 }
 printf("\n");
 if (value < array[m])
